@@ -68,6 +68,7 @@ Where `<package>` can be any one of the following:
 ‡ These types of `<package>` might have versions available. You can specify a
 [semver](http://semver.org/) compatible version to fetch a specific release, and lock the
 package to that version. You can also use ranges to specify a range of versions.
+Alternately, the version may specify a git commit hash.
 
 All package contents are installed in the `bower_components` directory by default.
 You should **never** directly modify the contents of this directory.
